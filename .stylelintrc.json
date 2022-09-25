@@ -17,7 +17,7 @@
     {
       "files": ["*.vue", "**/*.vue", "*.scss", "**/*.scss"],
       "rules": {
-        "unit-allowed-list": ["px", "rem"]
+        "unit-allowed-list": ["px", "rem", "%", "vw", "vh"]
       }
     }
   ]
