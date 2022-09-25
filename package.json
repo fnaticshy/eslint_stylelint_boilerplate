@@ -1,0 +1,19 @@
+{
+  "name": "lint_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-vue": "^9.5.1"
+  },
+  "dependencies": {
+    "vue": "^2.7.10"
+  }
+}
