@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bb">
     testg
   </div>
 </template>
@@ -28,11 +28,11 @@ export default {
 <style>
 @import "../test-scss-files/component.scss";
 
-.b {
-  width: 100px;
-  color: red;
-  height: 12px;
+.bb {
   display: block;
+  width: 100px;
+  height: 12px;
   font-style: normal;
+  color: #eee;
 }
 </style>
