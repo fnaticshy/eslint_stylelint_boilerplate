@@ -1,6 +1,6 @@
 <template>
   <div>
-    test
+    testg
   </div>
 </template>
 
@@ -26,5 +26,11 @@ export default {
 </script>
 
 <style>
-
+  .b {
+    width: 100px;
+    color: red;
+    height: 12px;
+    display: block;
+    font-style: normal;
+  }
 </style>

@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-vue/scss"
+  ],
+  "overrides": [
+    {
+      "files": ["*.vue", "**/*.vue", "*.scss", "**/*.scss"],
+      "rules": {
+        "unit-allowed-list": ["px", "rem"]
+      }
+    }
+  ]
+}
