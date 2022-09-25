@@ -26,11 +26,13 @@ export default {
 </script>
 
 <style>
-  .b {
-    width: 100px;
-    color: red;
-    height: 12px;
-    display: block;
-    font-style: normal;
-  }
+@import "../test-scss-files/component.scss";
+
+.b {
+  width: 100px;
+  color: red;
+  height: 12px;
+  display: block;
+  font-style: normal;
+}
 </style>

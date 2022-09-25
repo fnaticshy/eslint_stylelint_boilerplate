@@ -3,9 +3,19 @@
     "stylelint-config-standard-scss",
     "stylelint-config-recommended-vue/scss"
   ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/dollar-variable-pattern": "^foo",
+    "scss/selector-no-redundant-nesting-selector": true,
+    "scss/at-import-partial-extension": "always"
+  },
   "overrides": [
     {
-      "files": ["*.vue", "**/*.vue"],
+      "files": ["*.vue", "**/*.vue", "*.scss", "**/*.scss"],
       "rules": {
         "unit-allowed-list": ["px", "rem"]
       }
