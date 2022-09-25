@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test-vue-components specified\\\" && exit 1"
+    "test": "echo \\\"Error: no test-vue-components specified\\\" && exit 1",
+    "stylelint-fix": "npx stylelint --fix '**/*.{vue,scss}'"
   },
   "engines": {
     "node": ">=16",

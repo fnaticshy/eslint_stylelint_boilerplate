@@ -3,14 +3,15 @@
   display: block;
   width: 100px;
   height: 200px;
+  font-size: 12rem;
   font-style: normal;
   color: #fff;
   content: "";
-  opacity: 1;
+  opacity: .4;
 
   &__inner {
     display: flex;
-    height: 200px;
+    height: 202px;
     content: "";
   }
 }
